@@ -1,0 +1,29 @@
+.adminPanel {
+    width: 50%;
+}
+.customList {
+    font-size: 1.3rem;
+}
+.customIcon {
+    cursor: pointer;
+}
+.customError {
+    border-color: #dc3545!important;
+    background-image: none!important;
+}
+.customError:focus {
+    border-color: #dc3545!important;
+    box-shadow: 0 0 0 0.25rem rgb(220 53 69 / 25%)!important;
+}
+
+@media screen and (max-width: 1100px) {
+    .admin-panel {
+        width: 70%!important;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .admin-panel {
+        width: 100%!important;
+    }
+}

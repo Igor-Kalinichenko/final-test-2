@@ -1,0 +1,18 @@
+.resetLink {
+    display: inline-block;
+    padding-top: 1rem;
+    text-decoration: none;
+    
+    color: #575757;
+}
+.resetLink:hover {
+    color: #8c8a8a;
+}
+
+.resetLinkCard {
+    text-decoration: none;
+    color: #198754;
+}
+.resetLinkCard:hover {
+    color: #39d08a;
+}

@@ -1,0 +1,44 @@
+.products-box {
+    width: 59%;
+}
+.info-box {
+    width: 39%;
+}
+.count-btn {
+    cursor: pointer;
+}
+.delivery-error {
+    font-size: .8rem;
+}
+.to-main-btn:hover {
+    background-color: #198754;
+}
+.to-main-btn:hover h5 {
+    color: #fff!important;
+}
+
+@media screen and (max-width: 1100px) {
+    .bucket {
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .products-box, .info-box {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .delivery-info-input {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .delivery-info-input {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .products-box, .info-box {
+        width: 100%;
+    }
+}

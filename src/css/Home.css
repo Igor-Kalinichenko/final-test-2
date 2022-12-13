@@ -1,0 +1,32 @@
+.shoesImg {
+    width: 30%;
+    overflow: hidden;
+}
+.clothImg {
+    overflow: hidden;
+    width: 60%;
+}
+.shoesImg img, .clothImg img {
+    max-width: 100%;
+    transition: 1s;
+    height: 100%;
+}
+.clothImg img:hover, .shoesImg img:hover {
+    transform: scale(1.1);
+}
+.clothImg div {
+    top: 1rem;
+    left: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 960px) {
+    .clothImg div {
+      display: none;
+    }
+}
